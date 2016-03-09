@@ -1,0 +1,157 @@
+/*
+	=====================================
+	project: Distinctive
+	author:  Luka Cvrk (www.solucija.com)
+	-------------------------------------
+	2009. Solucija
+	=====================================
+*/
+
+*{margin:0;padding:0}:focus,:active {outline:0}img{border: 0}
+body { font: .8em Arial, Tahoma, Verdana; background: #fff url(../images/bg.gif) repeat-x; color: #000; }
+a { text-decoration: none; color: #B20F0F; }
+a#a2 {text-decoration: none; color: #777; }
+h1 { font-size: 1.4em; font-weight: normal; }
+	h1 a { color: #fff; font-size: 1.6em; }
+h2 { font-size: 1.2em; color:#777}
+h3 { font-size: 1.2em; background: #B00A0A url(../images/redbg.gif) repeat-x left bottom; padding: 6px 7px; color: #fff; font-weight: normal; margin: 0 0 15px; float: left; }
+	h3 a{color:#fff;}
+h4 { margin: 0 0 15px; color: #555; font-weight: normal; font-size: 1.6em; font-weight: normal; }
+p { clear: both; line-height: 1.64em; margin: 0 0 15px; }
+.line { clear: both; border-bottom: 1px solid #ddd; margin: 0 0 45px; }
+.clear { clear: both; }
+#content { width: 970px; margin: 0 auto; }
+	#top { color: #ccc; padding: 6px 20px 0; font-size: .84em; text-align: right; }
+	#logo { float: left; background: url(../images/redbg.gif) repeat-x; padding: 70px 10px 10px; margin: -55px 0 9px; }
+		#logo h1 { text-shadow: 1px 1px 1px #7E0E0E; }
+	#menu { float: right; margin: 33px 15px 0; }
+		#menu li { display: inline; font-size: 1.1em; }
+			#menu li a { float: left; color: #808080; padding: 0 0 5px; margin: 5px 0 0 35px; }
+			#menu li a:hover, #menu li.current a, #menu li a:focus { color: #000; border-bottom: 1px solid #ddd; }
+	#pitch { background: url(../images/Profile.png) no-repeat right top; padding: 0px 300px 0 0; border-bottom: 1px solid #ddd; height: 250px; margin: 0 0 20px; }
+		#pitch h1 { font-size: 2.6em; color: #000; margin: 0 0 20px; }
+		#pitch h2 { line-height: 1.1em; font-size: 1.2em }
+	.left { float: left; width: 250px; }	
+	.right { float: right; width: 630px; margin: 0 0 20px; }
+		/*.right h3 { background: #808080; font-size: .84em; } */
+	.third { float: left; width: 296px; margin: 0 40px 20px 0; }
+		.last { margin-right: 0; } 
+	#footer { color: #777; clear: both; font-size: .84em; border-top: 1px solid #ddd; padding: 20px 0 0; }
+
+/* Added by Suvinay */
+	#right1 {text-align:right;
+		 margin-right:40px;
+	}
+	/* For the Contacts page */
+	#menu2 { }
+	#menu2 ul {
+		margin: 10px;
+		list-style: none;
+	}
+	#menu2 li {
+		padding: 0 0 5px 0;
+		margin-left: 20px;
+	}
+
+	/* Table */
+	#content table2 {
+		margin-left: 20px;
+		margin-right: 30px;
+		width: 80%
+		border: none;
+		text-align: left;
+	}
+	#content table {
+		margin-left: 20px;
+		margin-right: 40px;
+		border: 1px solid;
+		text-align: left;
+	}
+	#content table#table2 {
+		margin-left: 0px;
+		margin-right: 20px;
+		margin-top: 0px;
+		border: none;
+		text-align: left;
+		padding : 0 0 0 0;
+		border-collapse:collapse;
+		table-layout:fixed;
+	}
+	#content td {
+		border: 1px solid;
+		text-align: left;
+		padding : 10px 10px 10px 10px;
+	}
+	#content td.td-1 {
+		border: none;
+		text-align: left;
+		padding: 0px 20px 0px 0px;
+	}
+	#content td.td-2 {
+		border: none;
+		text-align: left;
+		padding:0;
+		width: 4000px;
+		border-collapse:collapse;
+	}
+	#content td.td-3 {
+		border: none;
+		text-align: right;
+		padding:0;
+		width: 4000px;
+		border-collapse:collapse;
+	}
+	#content th {
+		border: 1px solid;
+		text-align: left;
+		padding : 10px 10px 10px 10px;
+	}
+
+	#content h5 {
+		margin-left: 10px;
+		margin-bottom: 10px;
+		font-size: 2.0em;
+		font-weight: bold;
+		color: #B00A0A;
+	}
+	#content h6 {
+		margin-left: 20px;
+		margin-bottom: 4px;
+		font-size: 1.5em;
+		padding : 14px 0 0 0;
+		color: #777;	
+	}
+
+	#content hr {
+		margin-left: 20px;
+		margin-right: 40px;
+		padding : 0 0 0 0;
+		margin-bottom: 8px;
+	}
+	#center {
+		margin-left: 25px;
+		margin-right: 40px;
+		padding: 0 0 0 0;
+	}
+	#center ul {
+		margin-left: 30px;
+		margin-right: 40px;
+		margin-top: 0;
+	}
+/* 	#content p {
+	 font-size: 1em;
+	 line-height: 1.5em;
+	 color: #8f8f8f;}
+
+	#content p a{
+	 color: #324A97;}
+ 
+	#content p a:hover {
+	 color: #fff;
+	 background: #324A97;}
+	 
+	#content h4 { 
+		margin-left: 20px;
+		margin-bottom: 10px;
+		font-size: 1.4em}
+*/

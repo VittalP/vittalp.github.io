@@ -1,0 +1,6 @@
+<li class="current"><a href="<?php echo $ROOT; ?>index.php">Home</a></li>
+<li><a href="<?php echo $ROOT; ?>research.php">Research</a></li>
+<li><a href="<?php echo $ROOT; ?>interests.php">Personal Interests</a></li>
+<li><a href="<?php echo $ROOT; ?>links.php">Links</a></li>
+<li><a href="http://www.vittalp88.blogspot.com/" target="_blank">Blog</a></li>
+<li><a href="<?php echo $ROOT; ?>contact.php">Contact</a></li>
